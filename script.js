@@ -1,27 +1,21 @@
-//this my age / how old I am??
- let myAge = 35;
+// that's my age
+let myAge = 35;
 
-//creating another variable and save the value 2.
+//first 2 years equal to 10.5 years in dog life
 let earlyYears = 2;
-
-//cause first 2 years dog's life count as 10.5 dog years each.
 earlyYears *= 10.5;
 
-//we already counted for the first 2 years.So subtract 2.
+//we already accounted first 2 years!
 let laterYears = myAge - 2;
 
-//following each year equals to 4 dog years.
+//Each year following equates to 4 dog years 
 laterYears *= 4;
 
-//this shows my age as dog years.
-let myAgeInDogYears = earlyYears + laterYears;
+//early and later years together!
+let myAgeInDogYears = (earlyYears + laterYears);
 
-//variable value saved with my name in lowercase.
+//create your name as in lowercase!
 let myName = 'Onur'.toLowerCase();
 
-//using interpolation to show together human & dog years.
-console.log(`My name is ${myName}. I am ${myAge} years old in human years
- which is ${myAgeInDogYears} years old in dog years.`);
-
-
-
+//using interpolation to show name, age in dog years! 
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
